@@ -11,4 +11,8 @@
   return @(a.integerValue + b.integerValue);
 }
 
++ (NSArray *)user
+{
+  return @[@"chris", @"ami", @"yvonne", @"melissa"];
+}
 @end

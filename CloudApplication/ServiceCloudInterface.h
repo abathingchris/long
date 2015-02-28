@@ -8,4 +8,5 @@
 @protocol ServiceCloudInterface <NSObject>
 + (NSString *)sayHello;
 + (NSNumber*)sumOf:(NSNumber*)a and:(NSNumber*)b;
++ (NSArray *)user;
 @end
